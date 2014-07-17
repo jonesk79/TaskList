@@ -13,6 +13,7 @@
 		A032C4B51975E22B00575FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A032C4B31975E22B00575FDB /* Main.storyboard */; };
 		A032C4B71975E22C00575FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A032C4B61975E22C00575FDB /* Images.xcassets */; };
 		A032C4C31975E22D00575FDB /* Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032C4C21975E22D00575FDB /* Task_ListTests.swift */; };
+		A0D943CB1978167600ECACF2 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D943CA1978167600ECACF2 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A032C4BC1975E22D00575FDB /* Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A032C4C11975E22D00575FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A032C4C21975E22D00575FDB /* Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ListTests.swift; sourceTree = "<group>"; };
+		A0D943CA1978167600ECACF2 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A032C4B31975E22B00575FDB /* Main.storyboard */,
 				A032C4B61975E22C00575FDB /* Images.xcassets */,
 				A032C4AB1975E22A00575FDB /* Supporting Files */,
+				A0D943CA1978167600ECACF2 /* TaskManager.swift */,
 			);
 			path = "Task List";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				A032C4B21975E22B00575FDB /* SecondViewController.swift in Sources */,
 				A032C4AE1975E22A00575FDB /* AppDelegate.swift in Sources */,
+				A0D943CB1978167600ECACF2 /* TaskManager.swift in Sources */,
 				A032C4B01975E22B00575FDB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 				A032C4C81975E22D00575FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A032C4C91975E22D00575FDB /* Build configuration list for PBXNativeTarget "Task ListTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				A032C4CB1975E22D00575FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
